@@ -202,7 +202,7 @@ class SimpleScraper:
             shutil.rmtree(self.folder_src)
 
 
-app = SimpleScraper()
+simple_scrapper = SimpleScraper()
 
 if __name__ == "__main__":
-    app.show_app_name()
+    simple_scrapper.show_app_name()

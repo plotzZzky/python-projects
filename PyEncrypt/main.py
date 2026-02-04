@@ -7,7 +7,7 @@ import art
 import os
 
 
-class PyGraphy:
+class PyEncrypt:
     """
         Script para criptograr e descriptografar arquivos e pastas
         - Permite criar e salvar uma chave de criptografia em uma (~./pygraphy/)
@@ -157,7 +157,7 @@ class PyGraphy:
             sys.exit()
 
 
-pygraphy = PyGraphy()
+pyencrypt = PyEncrypt()
 
 if __name__ == '__main__':
-    pygraphy.welcome()
+    pyencrypt.welcome()

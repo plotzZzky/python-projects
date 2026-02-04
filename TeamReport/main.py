@@ -140,10 +140,10 @@ generate_data = GenerateData()
 pie = GraphPie(generate_data)
 
 
-def start():
+def create_report():
     generate_data.open_file()
     pie.create_subplot()
 
 
 if __name__ == "__main__":
-    start()
+    create_report()

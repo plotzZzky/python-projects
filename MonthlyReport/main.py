@@ -7,7 +7,7 @@ from odf.opendocument import load
 from odf.text import P
 
 
-class RelatorioMensais:
+class MonthlyReport:
     # Quantidade de empresas na pesquisa
     PMS_AMOUNT: int = 67
     PIMPF_AMOUNT: int = 77
@@ -29,7 +29,7 @@ class RelatorioMensais:
     saved_file = None
 
 
-    def wellcome(self):
+    def welcome(self):
         """ Menu inicial do appcli """
         msg: str = f"{'_' * 20} Relatorio das Mensais {'_' * 20}"
         print(msg)
@@ -216,5 +216,5 @@ class RelatorioMensais:
 
 
 if __name__ == '__main__':
-    relatorio_app = RelatorioMensais()
-    relatorio_app.wellcome()
+    monthly_report = MonthlyReport()
+    monthly_report.welcome()

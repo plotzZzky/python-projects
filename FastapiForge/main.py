@@ -60,7 +60,7 @@ class FastapiForge(CliBoilerplate):
             print("Bye...")
 
 
-app = FastapiForge()
+fastapi_forge = FastapiForge()
 
 if __name__ == "__main__":
-    app.main_loop()
+    fastapi_forge.main_loop()

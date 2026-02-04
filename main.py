@@ -1,17 +1,20 @@
 from CPFScript.main import cpf
 from DjangoForge.main import forge
-from EmailSender.main import email_creator
+from FastapiForge.main import fastapi_forge
 from FindCompanyInfo.main import find
 from GitGet.main import gitget
-from IPInspector.main import ip
-from PasswordTest.main import pwd
+from MonthlyReport.main import monthly_report
 from ProjectCreator.main import menu as projectcreator
-from PyGraphy.main import pygraphy
+from PyDrawn.main import pydrawn
+from PyEncrypt.main import pyencrypt
+from PyLucky.main import pylucky
 from PyNance.main import pynance
 from PyRecord.main import pyrecord
 from PySystem.main import pysystem
-from SimpleRansomware.main import ransomware
-from TeamReport import main as teamreport
+from SimpleCheckout.main import checkout
+from SimpleScraper.main import simple_scrapper
+from TeamReport.main import create_report
+from Tpass.main import tpass
 from YouSave.main import yousave
 import art
 
@@ -22,37 +25,43 @@ class Menu:
         self.apps: list = [
             "CpfScript",
             "DjangoForge",
-            "EmailSender",
+            "FastapiForge",
             "FindCompanyInfo",
             "GitGet",
-            "IPInspector",
-            "PasswordTest",
+            "MonthlyReport",
             "ProjectCreator",
-            "PyGraphy",
+            "PyDrawn",
+            "PyEncrypt",
+            "PyLucky",
             "PyNance",
             "PyRecord",
             "PySystem",
-            "SimpleRansomware",
+            "SimpleCheckout",
+            "SimpleScrapper",
             "TeamReport",
+            "Tpass",
             "YouSave",
         ]
 
         self.funcs: list = [
-            cpf.wellcome_msg,
-            forge.wellcome_msg,
-            email_creator.wellcome_msg,
-            find.wellcome_msg,
-            gitget.wellcome_msg,
-            ip.wellcome_msg,
-            pwd.wellcome_msg,
-            projectcreator.wellcome_msg,
-            pygraphy.wellcome_msg,
-            pynance.wellcome_msg,
-            pyrecord.wellcome_msg,
-            pysystem.wellcome_msg,
-            ransomware.alert,
-            teamreport.start,
-            yousave.wellcome_msg,
+            cpf.welcome_msg,
+            forge.welcome_msg,
+            fastapi_forge.welcome_msg,
+            find.welcome_msg,
+            gitget.welcome_msg,
+            monthly_report.welcome,
+            projectcreator.welcome_msg,
+            pydrawn.welcome_msg,
+            pyencrypt.welcome_msg,
+            pylucky.welcome_msg,
+            pynance.welcome_msg,
+            pyrecord.welcome_msg,
+            pysystem.welcome_msg,
+            checkout.welcome_msg,
+            simple_scrapper.welcome_msg,
+            create_report,
+            tpass.welcome,
+            yousave.welcome_msg,
         ]
 
         self.print_space: str = f"{'-' * 36}"

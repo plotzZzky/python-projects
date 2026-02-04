@@ -155,6 +155,6 @@ class PyDrawn:
         sys.exit()
 
 
-app = PyDrawn()
+pydrawn = PyDrawn()
 if __name__ == "__main__":
-    app.welcome_msg()
+    pydrawn.welcome_msg()

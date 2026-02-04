@@ -33,7 +33,7 @@ class Checkout(CliBoilerplate):
 
     def buy_chips(self):
         try:
-            self.wellcome_msg()
+            self.welcome_msg()
             print(f"{'__' * 18} Menu {'__' * 18}")
             option: int = int(input("Gostaria de comprar quantas fichas?\n"))
 

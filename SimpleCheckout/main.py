@@ -115,7 +115,7 @@ class Checkout(CliBoilerplate):
             self.cash -= amount
 
     # ------------- Funções modificadas por necessidade do projeto --------------------
-    def wellcome_msg(self):
+    def welcome_msg(self):
         """
             Tela de apresentação (nome e descrição) do cliapp
             Se tiver o art instalado exibe o nome usando o, se não, usa o inbuilt print
@@ -130,7 +130,7 @@ class Checkout(CliBoilerplate):
 
     def restart_cli(self):
         """ reinicia o cliapp quando o usuario digitar uma opção invalida """
-        self.wellcome_msg()
+        self.welcome_msg()
         # print('Opção invalida!!!') removido o print
         self.start_menu()
 

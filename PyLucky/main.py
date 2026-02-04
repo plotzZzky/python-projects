@@ -68,7 +68,7 @@ class PyLucky(CliBoilerplate):
             self.restart_cli()
 
 
-menu = PyLucky()
+pylucky = PyLucky()
 
 if __name__ == "__main__":
-    menu.main_loop()
+    pylucky.main_loop()
