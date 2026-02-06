@@ -13,7 +13,6 @@
 ##### ProjectCreator - Appcli para criar projetos basico em Python ou JavaScript.
 ##### PyArchInstall - Script para instalar pacotes de forma automatizada no arch linux.
 ##### PyDrawn - Script para gerar sorteios em listas ou números aleatórios.
-##### PyEncrypt - Appcli para criptograr e descriptografar arquivos e pastas.
 ##### PyLucky - Mini cassino feito python para rodar em terminal
 ##### PyNance - Appcli para gerir sua vida financeira.
 ##### PyRecord - Appcli para gravar audio via terminal.
