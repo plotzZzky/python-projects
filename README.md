@@ -1,6 +1,16 @@
 ## Python projects 🐍
-#### Ampla coleção de scripts Python desenvolvidos por mim, abrangendo uma variedade de propósitos, desde automação de tarefas para atividades administrativas até segurança digital.
+#### Ampla coleção de scripts Python abrangendo uma variedade de propósitos, incluindo automações, tarefas administrativas e utilidades gerais.
+
 ---
+### Objetivo 📋
+
+Desenvolver e disponibilizar **pequenas soluções para atividades rotineiras em Python**, criadas no meu dia a dia como desenvolvedor.  
+Os scripts cobrem diferentes áreas de TI, incluindo automações, tarefas administrativas e utilidades gerais.  
+
+Esses projetos são simples e não justificam um repositório separado, mas podem ser usados de forma independente conforme a necessidade.
+
+--- 
+### Scripts ⚒️
 ```
 BoilerPlate - Boilerplate de um appcli simples feito em python.
 ```
@@ -67,5 +77,3 @@ webdroid-build - Script que simplifica o index.json da fdroid para ser usado no 
 ```
 yt-music-dowloader - Script que baixa listas de músicas(planilha) do youtube e converte para mp3.
 ```
-
-
