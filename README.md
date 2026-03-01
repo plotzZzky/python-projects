@@ -61,5 +61,11 @@ Tpass - Appcli para gerenciar senhas feito em python.
 ```
 Yousave - Appcli para baixar videos do YouTube.
 ```
+```
+webdroid-build - Script que simplifica o index.json da fdroid para ser usado no webdroid.
+```
+```
+yt-music-dowloader - Script que baixa listas de músicas(planilha) do youtube e converte para mp3.
+```
 
 
