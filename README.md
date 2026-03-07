@@ -2,7 +2,7 @@
 #### Ampla coleção de scripts Python abrangendo uma variedade de propósitos, incluindo automações, tarefas administrativas e utilidades gerais.
 
 ---
-### Objetivo 📋
+### Objetivo 🎯
 
 Desenvolver e disponibilizar **pequenas soluções para atividades rotineiras em Python**, criadas no meu dia a dia como desenvolvedor.  
 Os scripts cobrem diferentes áreas de TI, incluindo automações, tarefas administrativas e utilidades gerais.  
