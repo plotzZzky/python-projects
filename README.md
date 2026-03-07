@@ -12,68 +12,86 @@ Esses projetos são simples e não justificam um repositório separado, mas pode
 --- 
 ### Scripts ⚒️
 ```
-BoilerPlate - Boilerplate de um appcli simples feito em python.
+CPFScript
+- Appcli para validar matematicamente CPFs e gera ficticios.
 ```
 ```
-CPFScript - Appcli para validar matematicamente CPFs e gera ficticios.
+DjangoForge
+- Appcli para facilitar a criação de projetos com Django.
 ```
 ```
-DjangoForge - Appcli para facilitar a criação de projetos com Django.
+FastapiForge
+- Ferramentapara criar projetos com fastapi.
 ```
 ```
-FastapiForge - Ferramentapara criar projetos com fastapi.
+FindCompanyInfo
+- Appcli para buscar dados de empresas no cadastro da receita.
 ```
 ```
-FindCompanyInfo - Appcli para buscar dados de empresas no cadastro da receita.
+GenerateTasksLists
+- Distribui uma lista de tarefas entre entegrantes de uma equipe.
 ```
 ```
-GenerateTasksLists - Distri uma lista de tarefas entre entegrantes de uma equipe.
+GitGet
+- Appcli para baixar projetos do github de forma automatizada.
 ```
 ```
-GitGet - Appcli para baixar projetos do github.
+MonthlyReport
+- Ferramenta para gerar relatorios mensais de desempenho da equipe.
 ```
 ```
-MonthlyReport - Ferramenta para gerar relatorios mensais de desempenho da equipe.
+ProjectCreator
+- Appcli para criar projetos basico em Python ou JavaScript.
 ```
 ```
-ProjectCreator - Appcli para criar projetos basico em Python ou JavaScript.
+PyArchInstall
+- Script para instalar pacotes de forma automatizada no arch linux.
 ```
 ```
-PyArchInstall - Script para instalar pacotes de forma automatizada no arch linux.
+PyDrawn
+- Script para gerar sorteios em listas ou números aleatórios.
 ```
 ```
-PyDrawn - Script para gerar sorteios em listas ou números aleatórios.
+PyLucky
+- Mini cassino feito python para rodar em terminal.
 ```
 ```
-PyLucky - Mini cassino feito python para rodar em terminal
+PyNance
+- Appcli para gerir sua vida financeira.
 ```
 ```
-PyNance - Appcli para gerir sua vida financeira.
+PyRecord
+- Appcli para gravar audio via terminal.
 ```
 ```
-PyRecord - Appcli para gravar audio via terminal.
+PySistem
+- Ferramenta para exibir o consumo de hardware via terminal.
 ```
 ```
-PySistem - Ferramenta para exibir o consumo de hardware via terminal.
+SimpleCheckout
+- Protótipo de caixa para pagamentso(checkout) para pequenos comércios.
 ```
 ```
-SimpleCheckout - Protótipo de caixa para comércios.
+SimpleScrapper
+- Script para fazer scrappe de paginas web feito com urllib3.
 ```
 ```
-SimpleScrapper - Script para fazer scrappe de paginas web feito com urllib3
+TeamReport
+- Ferramenta que gera graficos para medir o desempenho de uma equipe ao executar tarefas.
 ```
 ```
-TeamReport - Ferramenta que gera graficos para medir o desempenho de uma equipe
+Tpass
+- Appcli para gerenciar senhas feito com pykeepass.
 ```
 ```
-Tpass - Appcli para gerenciar senhas feito em python.
+Yousave
+- Appcli para baixar videos do YouTube.
 ```
 ```
-Yousave - Appcli para baixar videos do YouTube.
+webdroid-build
+- Script que simplifica o index.json da fdroid para ser usado no webdroid.
 ```
 ```
-webdroid-build - Script que simplifica o index.json da fdroid para ser usado no webdroid.
-```
-```
-yt-music-dowloader - Script que baixa listas de músicas(planilha) do youtube e converte para mp3.
+yt-music-dowloader
+- Script que baixa listas de músicas(planilha) do youtube e converte para mp3.
 ```
