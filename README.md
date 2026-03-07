@@ -12,10 +12,6 @@ Esses projetos são simples e não justificam um repositório separado, mas pode
 --- 
 ### Scripts ⚒️
 ```
-CPFScript
-- Appcli para validar matematicamente CPFs e gera ficticios.
-```
-```
 DjangoForge
 - Appcli para facilitar a criação de projetos com Django.
 ```
@@ -26,14 +22,6 @@ FastapiForge
 ```
 FindCompanyInfo
 - Appcli para buscar dados de empresas no cadastro da receita.
-```
-```
-GenerateTasksLists
-- Distribui uma lista de tarefas entre entegrantes de uma equipe.
-```
-```
-GitGet
-- Appcli para baixar projetos do github de forma automatizada.
 ```
 ```
 MonthlyReport
@@ -58,10 +46,6 @@ PyLucky
 ```
 PyNance
 - Appcli para gerir sua vida financeira.
-```
-```
-PyRecord
-- Appcli para gravar audio via terminal.
 ```
 ```
 PySistem
