@@ -1,15 +1,11 @@
-from CPFScript.main import cpf
 from DjangoForge.main import forge
 from FastapiForge.main import fastapi_forge
-from FindCompanyInfo.main import find
-from GitGet.main import gitget
 from MonthlyReport.main import monthly_report
 from ProjectCreator.main import menu as projectcreator
 from PyDrawn.main import pydrawn
 from PyEncrypt.main import pyencrypt
 from PyLucky.main import pylucky
 from PyNance.main import pynance
-from PyRecord.main import pyrecord
 from PySystem.main import pysystem
 from SimpleCheckout.main import checkout
 from SimpleScraper.main import simple_scrapper
@@ -23,18 +19,14 @@ class Menu:
     # Menu para executar um dos scripts desse projeto
     def __init__(self):
         self.apps: list = [
-            "CpfScript",
             "DjangoForge",
             "FastapiForge",
-            "FindCompanyInfo",
-            "GitGet",
             "MonthlyReport",
             "ProjectCreator",
             "PyDrawn",
             "PyEncrypt",
             "PyLucky",
             "PyNance",
-            "PyRecord",
             "PySystem",
             "SimpleCheckout",
             "SimpleScrapper",
@@ -44,18 +36,14 @@ class Menu:
         ]
 
         self.funcs: list = [
-            cpf.welcome_msg,
             forge.welcome_msg,
             fastapi_forge.welcome_msg,
-            find.welcome_msg,
-            gitget.welcome_msg,
             monthly_report.welcome,
             projectcreator.welcome_msg,
             pydrawn.welcome_msg,
             pyencrypt.welcome_msg,
             pylucky.welcome_msg,
             pynance.welcome_msg,
-            pyrecord.welcome_msg,
             pysystem.welcome_msg,
             checkout.welcome_msg,
             simple_scrapper.welcome_msg,

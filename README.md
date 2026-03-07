@@ -12,55 +12,51 @@ Esses projetos são simples e não justificam um repositório separado, mas pode
 --- 
 ### Scripts ⚒️
 ```
-DjangoForge
+Djangoforge
 - Appcli para facilitar a criação de projetos com Django.
 ```
 ```
-FastapiForge
+Fastapiforge
 - Ferramentapara criar projetos com fastapi.
 ```
 ```
-FindCompanyInfo
-- Appcli para buscar dados de empresas no cadastro da receita.
-```
-```
-MonthlyReport
+Monthly report
 - Ferramenta para gerar relatorios mensais de desempenho da equipe.
 ```
 ```
-ProjectCreator
+Project creator
 - Appcli para criar projetos basico em Python ou JavaScript.
 ```
 ```
-PyArchInstall
+Pyarch install
 - Script para instalar pacotes de forma automatizada no arch linux.
 ```
 ```
-PyDrawn
+Pydrawn
 - Script para gerar sorteios em listas ou números aleatórios.
 ```
 ```
-PyLucky
+Pylucky
 - Mini cassino feito python para rodar em terminal.
 ```
 ```
-PyNance
+Pynance
 - Appcli para gerir sua vida financeira.
 ```
 ```
-PySistem
+Pysistem
 - Ferramenta para exibir o consumo de hardware via terminal.
 ```
 ```
-SimpleCheckout
+Simple checkout
 - Protótipo de caixa para pagamentso(checkout) para pequenos comércios.
 ```
 ```
-SimpleScrapper
+Simple scrapper
 - Script para fazer scrappe de paginas web feito com urllib3.
 ```
 ```
-TeamReport
+Team report
 - Ferramenta que gera graficos para medir o desempenho de uma equipe ao executar tarefas.
 ```
 ```
@@ -72,10 +68,10 @@ Yousave
 - Appcli para baixar videos do YouTube.
 ```
 ```
-webdroid-build
+Webdroid-build
 - Script que simplifica o index.json da fdroid para ser usado no webdroid.
 ```
 ```
-yt-music-dowloader
+Yt-music-dowloader
 - Script que baixa listas de músicas(planilha) do youtube e converte para mp3.
 ```
